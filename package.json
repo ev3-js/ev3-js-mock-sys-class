@@ -1,0 +1,10 @@
+{
+  "name": "ev3-js-mock-sys-class",
+  "repository": "git://github.com/ev3-js/ev3-js-mock-sys-class.git",
+  "description": "Mock sys class for testing ev3-dev libraries.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "postversion": "git push && git push --tags && npm publish --access=public"
+  }
+}
